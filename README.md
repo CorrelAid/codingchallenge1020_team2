@@ -10,9 +10,10 @@ Multi class classification problem of audio data
 ## Approach
 
 - Convert audio data into images (spectrograms)
+- Augment data (pitch, noise, shift, and speed)
 
 ![Image showing spectogram for beans](img/spectrogram.png)
-- Augment data (pitch, noise, shift, and speed)
+
 - Use CNN for classification (ResNet18)
 
 Or, if we you want our work flow visually:
