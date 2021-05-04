@@ -1,1 +1,20 @@
-# codingchallenge1020_team2
+# ZINDI Coding Challenge on Keyword Spotter
+
+This repository contains the replication material used for the coding challenge at [ZINDI](https://zindi.africa/competitions/giz-nlp-agricultural-keyword-spotter).
+
+
+## Problem
+
+Multi class classification problem of audio data
+
+## Approach
+
+- Convert audio data into images (spectrograms)
+
+![Image showing spectogram for beans](img/spectrogram.png)
+- Augment data (pitch, noise, shift, and speed)
+- Use CNN for classification (ResNet18)
+
+Or, if we you want our work flow visually:
+
+![Image of the workflow](img/workflow.png)
