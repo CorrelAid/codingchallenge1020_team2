@@ -16,6 +16,6 @@ Multi class classification problem of audio data
 
 - Use CNN for classification (ResNet18)
 
-Or, if we you want our work flow visually:
+Or, if you want our work flow visually:
 
 ![Image of the workflow](img/workflow.png)
